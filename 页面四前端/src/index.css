@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+  margin: 0;
+
+  background:
+    radial-gradient(circle at top left,
+    #f8f4ee,
+    #f2ece3);
+
+  font-family:
+    "Inter",
+    "Noto Serif SC",
+    sans-serif;
+
+  color: #1f1f1f;
+
+  letter-spacing: 0.02em;
+}
